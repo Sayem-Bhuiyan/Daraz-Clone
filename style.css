@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-option {
+    height: 25px;
+    /* width: 100%; */
+    margin-left: 180px;
+    margin-right: 50px;
+    margin-top: 3px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-option ul li {
+    list-style-type: none;
+    font-size: 12px;
+    color: #212121;
+    border: 1px solid transparent;
+}
+
+.nav-option ul li:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+span {
+    color: red;
+}
+
+/* second navbar */
+.second-navbar {
+    height: 50px;
+    width: 100%;
+}
+    
+.logo-icon {
+    height: 47px;
+    width: 150px;
+    background-image: url("daraz_logo.png");
+    background-size: cover;
+    background-size: 150px;
+    
+}
+
+/* The second nav-bar */
+
+.second-navbar {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.second-navbar i {
+    font-size: 20px;
+}
+
+.search {
+    width: 700px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search i {
+    height: 45px;
+    width: 45px;
+    font-size: 22px;
+    background-color: rgb(255, 123, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-type {
+    height: 45px;
+    width: 670px;
+    border: none;
+    font-size: 13px;
+}
+
+.free-delivery {
+    height: 45px;
+    width: 188px;
+    background-image: url("free-delivery-icon.png");
+    background-size: cover;
+}
+
+/* hero section */
+
+.option {
+    height: 40px;
+    width: 200px;
+    border: none;
+    font-size: 0.95rem;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+    margin-left: 75px
+
+}
+
+.first-image {
+    background-image: url('daraz-add.jpg');
+    height: 180px;
+    background-size: cover;
+    margin-right: 15px;
+}
